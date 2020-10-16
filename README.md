@@ -12,13 +12,14 @@ ROSDS es una plataforma online que permite utilizar ROS sin la necesidad de inst
   6. Explorar el ROSject.
   7. Proceder a clonar este repositorio.<br/>
       Tools>Shell:<br/>
-      ![Image of cloning repo](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image5.png)
+      ![Image of cloning repo](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image5.png)<br/>
       El enlace para clonar el repositorio es: https://github.com/AlexCC93/Taller_robotica_movil_manipuladores.git
-      ![Image of cloning repo_success](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image6.png)
+      ![Image of cloning repo_success](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image6.png)<br/>
   NOTA: Al principio se va a solicitar que se ingrese su credenciales de su cuenta de github.
-  ![Image of cloning repo_failed](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image7.png)
-  El error que se muestra aquí, se debe a que el repositorio no estaba configurado como visible para el público.
+  ![Image of cloning repo_failed](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image7.png)<br/>
+  El error que se muestra aquí, se debe a que el repositorio no estaba configurado como visible para el público.<br/>
   Si no se tiene una cuenta en github, crearla siguiendo:
+  
   
   
     
