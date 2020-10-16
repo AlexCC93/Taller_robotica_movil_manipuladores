@@ -43,10 +43,10 @@ Ejecución de aplicaciones.<br/>
   - Para correr esta aplicación es necesario abrir un nuevo shell y ejecutar "roscore" nuevamente.<br/>
   - Luego, ejecutar "rosrun first_custom_nodes talker_node".<br/>
   ![Image of talker node](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image15.png)<br/>
-    Este comando envía (publica) mensajes al topic llamado "".<br/>
+    Este comando envía (publica) mensajes al topic llamado "chatter".<br/>
   - A continuación correr "rosrun first_custom_nodes listener_node".<br/>
   ![Image of listener node](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image16.png)<br/>
-    Este comando se suscribe al topic "".<br/>
+    Este comando se suscribe al topic "chatter".<br/>
   - Un nodo publica y el otro se suscribe. Aquí se ven lado a lado y los mensajes con los que interactuan. <br/>
   ![Image of talker and listener app](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image17.png)<br/>
   
