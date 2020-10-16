@@ -11,7 +11,8 @@ ROSDS es una plataforma online que permite utilizar ROS sin la necesidad de inst
   5. Abrir el "ROSject" recién creado. Click en "Open ROSject".
   6. Explorar el ROSject.
   7. Proceder a clonar este repositorio.
-    Tools>Shell
+    Tools>Shell:
+    ![Image of cloning repo](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image5.png)
     
   
   
