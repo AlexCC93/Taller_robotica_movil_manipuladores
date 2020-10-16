@@ -24,17 +24,22 @@ ROSDS es una plataforma online que permite utilizar ROS sin la necesidad de inst
   - source devel/setup.bash
   - catkin_make <br/>
   ![Image of catkin_make](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image9.png)<br/> 
-Ejecución de aplicaciones.
--> Turtlesim.
+Ejecución de aplicaciones.<br/>
+-> Turtlesim.<br/>
   - Abrir un nuevo shell. Cada vez que se abra un nuevo shell se debe ejecutar "source devel/setup.bash". Luego, ejecutar "roscore".<br/>
   ![Image of roscore](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image10.png)<br/>
   Esto inicia el nodo maestro en ROS, éste se encarga de gestionar la comunicación entre los demás nodos dentro de ROS.<br/>
-  - En un nuevo shell ejecutar "rosrun turtlesim turtlesim_node".
-![Image of turtlesim spawn](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image11.png)<br/>
-Este comando hace que aparezca una tortuga en su interfaz gráfica de ROSDS.
-- Abrir Tools>Graphical Tools para observar la tortuga dibujada en su interfaz gráfica. Si el dibujo esperado (tortuga), no aparece, correr nuevamente el comando "rosrun turtlesim turtlesim_node".
-![Image of graphical tools](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image12.png)<br/>
--> Publicación y suscripción a topics. 
+  - En un nuevo shell ejecutar "rosrun turtlesim turtlesim_node".<br/>
+  ![Image of turtlesim spawn](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image11.png)<br/>
+  Este comando hace que aparezca una tortuga en su interfaz gráfica de ROSDS.
+  - Abrir Tools>Graphical Tools para observar la tortuga dibujada en su interfaz gráfica. Si el dibujo esperado (tortuga), no aparece, correr nuevamente el comando "rosrun turtlesim turtlesim_node".
+  ![Image of graphical tools](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image12.png)<br/>
+  - En un nuevo shell ejecutar "rosrun turtlesim turtle_teleop_key".
+  ![Image of turtle_teleop_key](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image13.png)<br/>
+  Este comando permite que se controle el movimiento de la tortuga desde el teclado. <br/>
+  - Toda la aplicación se vería así.<br/>
+  ![Image of turtlesim_app](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image14.png)<br/>
+-> Publicación y suscripción a topics. <br/>
 
   
   
