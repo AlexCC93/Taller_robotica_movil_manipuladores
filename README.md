@@ -23,16 +23,13 @@ ROSDS es una plataforma online que permite utilizar ROS sin la necesidad de inst
   8. Para que todo lo que se ha agregado, funcione correctamente se ejecutan estos dos comandos en un shell:
   - source devel/setup.bash
   - catkin_make <br/>
-  ![Image of catkin_make](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image9.png)<br/>
-  
-  
-  
-<h2> Ejecución de aplicaciones. </h2>
-<h3> -> Turtlesim.</h3>
+  ![Image of catkin_make](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image9.png)<br/> 
+Ejecución de aplicaciones.
+-> Turtlesim.
   - Abrir un nuevo shell. Cada vez que se abra un nuevo shell se debe ejecutar "source devel/setup.bash". Luego, ejecutar "roscore".<br/>
   ![Image of roscore](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image10.png)<br/>
-Esto inicia el nodo maestro en ROS, éste se encarga de gestionar la comunicación entre los demás nodos dentro de ROS.
-- En un nuevo shell ejecutar "rosrun turtlesim turtlesim_node".
+  Esto inicia el nodo maestro en ROS, éste se encarga de gestionar la comunicación entre los demás nodos dentro de ROS.<br/>
+  - En un nuevo shell ejecutar "rosrun turtlesim turtlesim_node".
 ![Image of turtlesim spawn](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image11.png)<br/>
 Este comando hace que aparezca una tortuga en su interfaz gráfica de ROSDS.
 - Abrir Tools>Graphical Tools para observar la tortuga dibujada en su interfaz gráfica. Si el dibujo esperado (tortuga), no aparece, correr nuevamente el comando "rosrun turtlesim turtlesim_node".
