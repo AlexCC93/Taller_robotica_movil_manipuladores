@@ -24,7 +24,11 @@ ROSDS es una plataforma online que permite utilizar ROS sin la necesidad de inst
   - source devel/setup.bash
   - catkin_make <br/>
   ![Image of catkin_make](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image9.png)<br/>
-  
+<h2> Ejecución de aplicaciones. </h2>
+<h3> -> Turtlesim.</h3>
+
+-> Publicación y suscripción a topics. 
+
   
   
     
