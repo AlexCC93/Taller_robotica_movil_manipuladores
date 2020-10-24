@@ -28,16 +28,17 @@ Ejecución de aplicaciones. </br>
     1. Abrir un nuevo shell. Cada vez que se abra un nuevo shell se debe ejecutar "source devel/setup.bash". Luego, ejecutar "roscore".<br/>
     ![Image of roscore](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image10.png)<br/>
     Esto inicia el nodo maestro en ROS, éste se encarga de gestionar la comunicación entre los demás nodos dentro de ROS.<br/>
-    2. En un nuevo shell ejecutar "rosrun turtlesim turtlesim_node".<br/>
+    2. En un nuevo shell, sin cerrar el anterior shell que se tiene, ejecutar "rosrun turtlesim turtlesim_node".<br/>
     ![Image of turtlesim spawn](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image11.png)<br/>
     Este comando hace que aparezca una tortuga en su interfaz gráfica de ROSDS.
-    3. Abrir Tools>Graphical Tools para observar la tortuga dibujada en su interfaz gráfica. Si el dibujo esperado (tortuga), no aparece, correr nuevamente el comando "rosrun turtlesim turtlesim_node".
+    3. Abrir Tools>Graphical Tools para observar la tortuga dibujada en su interfaz gráfica. Si el dibujo esperado (tortuga), no aparece, correr nuevamente el comando "rosrun turtlesim turtlesim_node". Para correr el programa nuevamente, será necesario primero detener el programa actual presionando ctrl+c.
     ![Image of graphical tools](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image12.png)<br/>
     4. En un nuevo shell ejecutar "rosrun turtlesim turtle_teleop_key".
     ![Image of turtle_teleop_key](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image13.png)<br/>
     Este comando permite que se controle el movimiento de la tortuga desde el teclado. <br/>
     5. Toda la aplicación se vería así.<br/>
     ![Image of turtlesim_app](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image14.png)<br/>
+    Para correr la siguiente aplicación será necesario cerrar todas las ventanas activas. 
   -> Publicación y suscripción a topics. <br/>
     6. Para correr esta aplicación es necesario abrir un nuevo shell y ejecutar "roscore" nuevamente.<br/>
     7. Luego, ejecutar "rosrun first_custom_nodes talker_node".<br/>
@@ -48,6 +49,10 @@ Ejecución de aplicaciones. </br>
     Este comando se suscribe al topic "chatter".<br/>
     9. Un nodo publica y el otro se suscribe. Aquí se ven lado a lado y los mensajes con los que interactuan. <br/>
     ![Image of talker and listener app](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image17.png)<br/>
+    Estas aplicaciones básicas de ROS pueden encontrarse en: 
+    - http://wiki.ros.org/turtlesim
+    - http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29
+    
   
   
 
