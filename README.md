@@ -18,11 +18,11 @@ ROSDS es una plataforma online que permite utilizar ROS sin la necesidad de inst
   NOTA: Al principio se va a solicitar que se ingrese su credenciales de su cuenta de github.
   ![Image of cloning repo_failed](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image7.png)<br/>
   El error que se muestra aquí, se debe a que el repositorio no estaba configurado como visible para el público.<br/>
-  8. Para que todo lo que se ha agregado, funcione correctamente se ejecutan estos dos comandos en un shell:
-    - source devel/setup.bash
+  8. Para que todo lo que se ha agregado, funcione correctamente se ejecutan estos dos comandos en un shell:<br/>
+    - source devel/setup.bash <br/> 
     - catkin_make <br/>
   ![Image of catkin_make](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image9.png)<br/> 
-Ejecución de aplicaciones.<br/>
+<h2>Ejecución de aplicaciones.</h2> <br/>
 -> Turtlesim.<br/>
   - Abrir un nuevo shell. Cada vez que se abra un nuevo shell se debe ejecutar "source devel/setup.bash". Luego, ejecutar "roscore".<br/>
   ![Image of roscore](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image10.png)<br/>
