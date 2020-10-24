@@ -18,8 +18,6 @@ ROSDS es una plataforma online que permite utilizar ROS sin la necesidad de inst
   NOTA: Al principio se va a solicitar que se ingrese su credenciales de su cuenta de github.
   ![Image of cloning repo_failed](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image7.png)<br/>
   El error que se muestra aquí, se debe a que el repositorio no estaba configurado como visible para el público.<br/>
-  7.5.  Si no se tiene una cuenta en github, crearla ingresando a https://github.com/<br/>
-  ![Image of github account creation](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image8.png)<br/>
   8. Para que todo lo que se ha agregado, funcione correctamente se ejecutan estos dos comandos en un shell:
   - source devel/setup.bash
   - catkin_make <br/>
