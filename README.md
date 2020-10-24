@@ -49,8 +49,8 @@ Ejecución de aplicaciones. </br>
     Este comando se suscribe al topic "chatter".<br/>
     9. Un nodo publica y el otro se suscribe. Aquí se ven lado a lado y los mensajes con los que interactuan. <br/>
     ![Image of talker and listener app](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image17.png)<br/>
-    Estas aplicaciones básicas de ROS pueden encontrarse en: 
-    - http://wiki.ros.org/turtlesim
+    Para más información de estas aplicaciones visitar: </br>  
+    - http://wiki.ros.org/turtlesim </br> 
     - http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29
     
   
