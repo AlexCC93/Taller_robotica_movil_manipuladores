@@ -22,31 +22,32 @@ ROSDS es una plataforma online que permite utilizar ROS sin la necesidad de inst
     - source devel/setup.bash <br/> 
     - catkin_make <br/>
   ![Image of catkin_make](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image9.png)<br/> 
+
 Ejecución de aplicaciones. </br>
--> Turtlesim.<br/>
-  - Abrir un nuevo shell. Cada vez que se abra un nuevo shell se debe ejecutar "source devel/setup.bash". Luego, ejecutar "roscore".<br/>
-  ![Image of roscore](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image10.png)<br/>
-  Esto inicia el nodo maestro en ROS, éste se encarga de gestionar la comunicación entre los demás nodos dentro de ROS.<br/>
-  - En un nuevo shell ejecutar "rosrun turtlesim turtlesim_node".<br/>
-  ![Image of turtlesim spawn](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image11.png)<br/>
-  Este comando hace que aparezca una tortuga en su interfaz gráfica de ROSDS.
-  - Abrir Tools>Graphical Tools para observar la tortuga dibujada en su interfaz gráfica. Si el dibujo esperado (tortuga), no aparece, correr nuevamente el comando "rosrun turtlesim turtlesim_node".
-  ![Image of graphical tools](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image12.png)<br/>
-  - En un nuevo shell ejecutar "rosrun turtlesim turtle_teleop_key".
-  ![Image of turtle_teleop_key](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image13.png)<br/>
-  Este comando permite que se controle el movimiento de la tortuga desde el teclado. <br/>
-  - Toda la aplicación se vería así.<br/>
-  ![Image of turtlesim_app](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image14.png)<br/>
--> Publicación y suscripción a topics. <br/>
-  - Para correr esta aplicación es necesario abrir un nuevo shell y ejecutar "roscore" nuevamente.<br/>
-  - Luego, ejecutar "rosrun first_custom_nodes talker_node".<br/>
-  ![Image of talker node](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image15.png)<br/>
+  -> Turtlesim.<br/>
+    1. Abrir un nuevo shell. Cada vez que se abra un nuevo shell se debe ejecutar "source devel/setup.bash". Luego, ejecutar "roscore".<br/>
+    ![Image of roscore](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image10.png)<br/>
+    Esto inicia el nodo maestro en ROS, éste se encarga de gestionar la comunicación entre los demás nodos dentro de ROS.<br/>
+    2. En un nuevo shell ejecutar "rosrun turtlesim turtlesim_node".<br/>
+    ![Image of turtlesim spawn](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image11.png)<br/>
+    Este comando hace que aparezca una tortuga en su interfaz gráfica de ROSDS.
+    3. Abrir Tools>Graphical Tools para observar la tortuga dibujada en su interfaz gráfica. Si el dibujo esperado (tortuga), no aparece, correr nuevamente el comando "rosrun turtlesim turtlesim_node".
+    ![Image of graphical tools](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image12.png)<br/>
+    4. En un nuevo shell ejecutar "rosrun turtlesim turtle_teleop_key".
+    ![Image of turtle_teleop_key](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image13.png)<br/>
+    Este comando permite que se controle el movimiento de la tortuga desde el teclado. <br/>
+    5. Toda la aplicación se vería así.<br/>
+    ![Image of turtlesim_app](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image14.png)<br/>
+  -> Publicación y suscripción a topics. <br/>
+    6. Para correr esta aplicación es necesario abrir un nuevo shell y ejecutar "roscore" nuevamente.<br/>
+    7. Luego, ejecutar "rosrun first_custom_nodes talker_node".<br/>
+    ![Image of talker node](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image15.png)<br/>
     Este comando envía (publica) mensajes al topic llamado "chatter".<br/>
-  - A continuación correr "rosrun first_custom_nodes listener_node".<br/>
-  ![Image of listener node](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image16.png)<br/>
+    8. A continuación correr "rosrun first_custom_nodes listener_node".<br/>
+    ![Image of listener node](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image16.png)<br/>
     Este comando se suscribe al topic "chatter".<br/>
-  - Un nodo publica y el otro se suscribe. Aquí se ven lado a lado y los mensajes con los que interactuan. <br/>
-  ![Image of talker and listener app](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image17.png)<br/>
+    9. Un nodo publica y el otro se suscribe. Aquí se ven lado a lado y los mensajes con los que interactuan. <br/>
+    ![Image of talker and listener app](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image17.png)<br/>
   
   
 
