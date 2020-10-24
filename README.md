@@ -19,8 +19,8 @@ ROSDS es una plataforma online que permite utilizar ROS sin la necesidad de inst
   ![Image of cloning repo_failed](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image7.png)<br/>
   El error que se muestra aquí, se debe a que el repositorio no estaba configurado como visible para el público.<br/>
   8. Para que todo lo que se ha agregado, funcione correctamente se ejecutan estos dos comandos en un shell:
-  - source devel/setup.bash
-  - catkin_make <br/>
+    - source devel/setup.bash
+    - catkin_make <br/>
   ![Image of catkin_make](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image9.png)<br/> 
 Ejecución de aplicaciones.<br/>
 -> Turtlesim.<br/>
