@@ -22,8 +22,8 @@ ROSDS es una plataforma online que permite utilizar ROS sin la necesidad de inst
     - source devel/setup.bash <br/> 
     - catkin_make <br/>
   ![Image of catkin_make](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image9.png)<br/> 
-<h2>Ejecución de aplicaciones.</h2>
-<h3> -> Turtlesim. </h3> <br/>
+Ejecución de aplicaciones. </br>
+-> Turtlesim.<br/>
   - Abrir un nuevo shell. Cada vez que se abra un nuevo shell se debe ejecutar "source devel/setup.bash". Luego, ejecutar "roscore".<br/>
   ![Image of roscore](https://github.com/AlexCC93/Taller_robotica_movil_manipuladores/blob/main/imagenes/image10.png)<br/>
   Esto inicia el nodo maestro en ROS, éste se encarga de gestionar la comunicación entre los demás nodos dentro de ROS.<br/>
